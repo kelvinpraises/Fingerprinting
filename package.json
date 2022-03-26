@@ -1,4 +1,7 @@
 {
+  "name": "fingerprinting",
+  "version": "0.1.0",
+  "description": "Prevent an account from establishing connection on multiple devices at the same time.",
   "scripts": {
     "build": "tsc"
   },
@@ -7,5 +10,16 @@
   },
   "devDependencies": {
     "typescript": "^4.6.3"
-  }
+  },
+  "main": "lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelvinpraises/fingerprinting.git"
+  },
+  "author": "kelvin praises",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kelvinpraises/fingerprinting/issues"
+  },
+  "homepage": "https://github.com/kelvinpraises/fingerprinting#readme"
 }

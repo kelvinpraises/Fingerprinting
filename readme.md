@@ -1,3 +1,3 @@
 # Fingerprinting
 
-Prevent an account from establishing connection on multiple devices at the same time using websocket.
+Prevent a user account on an app from establishing internet connection on multiple devices at the same time using websocket.

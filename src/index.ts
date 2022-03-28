@@ -27,7 +27,7 @@ wss.on("connection", function connection(ws, request) {
   if (exists) {
     const res = { connected: false, message: "Connection exists" };
     ws.send(JSON.stringify(res));
-    ws.close(WS_CLOSE_CODES.connectionExists, 'connectionExists')
+    ws.close(WS_CLOSE_CODES.connectionExists, "connectionExists");
     return;
   }
 
